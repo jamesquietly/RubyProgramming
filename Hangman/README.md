@@ -1,5 +1,10 @@
 Project: Hangman
 ================
+Run in Hangman.rb in terminal to play:
+```
+> ruby Hangman.rb
+```
+
 project specs from https://www.theodinproject.com/courses/ruby-programming/lessons/file-i-o-and-serialization
 
 Files are a great way to save and reload a game, so we'll give it a shot here.
