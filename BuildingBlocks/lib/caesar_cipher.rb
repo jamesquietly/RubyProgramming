@@ -16,7 +16,7 @@ end
 
 #go through string and shift letters
 def caesar_cipher(string, shift_amount)
-	  array = string.split("")
+	array = string.split("")
     cipher = array.map do |letter|
     	   if "~`-+=_!@\#{$%^&*()}[]\\|\'\"".include?(letter)
     	       letter
@@ -28,5 +28,3 @@ def caesar_cipher(string, shift_amount)
     end
     cipher.join()
 end
-
-puts caesar_cipher("What a string!", 5)
